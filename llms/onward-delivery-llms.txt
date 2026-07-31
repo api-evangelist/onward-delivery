@@ -1,0 +1,53 @@
+# Onward Delivery
+
+> Onward Delivery is a Techstars-backed, Denver-based final-mile logistics platform for "big and bulky" deliveries. It smart-matches shippers and brokers with a nationwide network of 1,000+ box-truck carriers, and exposes a versioned (v1) REST API at api.onwarddelivery.com documented on Theneo, spanning demand, supply, and WMS surfaces.
+
+- generated: 2026-07-20
+- method: generated
+- source: apis.yml + docs.onwarddelivery.com (Theneo)
+
+## APIs
+
+- [Onward Delivery API — reference (Theneo)](https://docs.onwarddelivery.com/): versioned (v1) REST API; base URL https://api.onwarddelivery.com
+
+## Documented operation surface
+
+Harvested from the published API reference navigation (docs.onwarddelivery.com); request/response schemas are not published as a downloadable OpenAPI.
+
+- Authentication
+- Orders: create orders, list orders, update orders, cancel order, get order status, price order, submit orders (payload)
+- Manifests: create draft manifest, get manifest, list manifests
+- Partners: create partner, get partner, list partners, update partner, delete partner
+- Subscriptions: create subscription, get subscription, list subscriptions, update subscription, delete subscription
+- Routes: get routes
+- Jobs: get job
+- Activity: ingest activity
+- Events and Webhook Management
+- Surfaces: Demand API, Supply API, WMS
+
+## Docs
+
+- [API Reference](https://docs.onwarddelivery.com/)
+- [Changelog](https://docs.onwarddelivery.com/changelog/onward-delivery/new-api-test)
+- [Blog](https://www.onwarddelivery.com/blog)
+- [Pricing](https://www.onwarddelivery.com/pricing)
+- [Integration Partners](https://www.onwarddelivery.com/integrations)
+
+## Applications
+
+- [Shipper sign in](https://app.onwarddelivery.com/shipper/signin)
+- [Carrier sign in](https://app.onwarddelivery.com/carrier/signin)
+- [Get started (broker)](https://www.onwarddelivery.com/im-a-broker)
+
+## Legal
+
+- [Terms and Conditions](https://www.onwarddelivery.com/terms-and-conditions)
+- [Shipper Privacy Notice](https://www.onwarddelivery.com/shipper-privacy-notice)
+- [Carrier Privacy Notice](https://www.onwarddelivery.com/carrier-privacy-notice)
+
+## Company
+
+- Website: https://onwarddelivery.com/
+- Backed by: Techstars
+- Location: Denver, Colorado
+- Support: customerservice@onwarddelivery.com

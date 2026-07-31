@@ -1,7 +1,19 @@
 aid: onward-delivery
 name: Onward Delivery
-description: Onward Delivery is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Onward Delivery is a Denver, Colorado final-mile logistics platform, backed by
+  Techstars, that specializes in "big and bulky" deliveries by smart-matching
+  shippers and brokers with a nationwide network of 1,000+ box-truck carriers to
+  better utilize otherwise-empty truck capacity. The company operates a real
+  developer surface: a Theneo-hosted API reference at docs.onwarddelivery.com
+  documenting a versioned (v1) REST API at api.onwarddelivery.com, organized into
+  demand, supply, and WMS surfaces. Documented operations cover orders
+  (create, list, update, cancel, price, order status, and manifest submission),
+  draft manifests (create, get, list), partners (create, get, list, update,
+  delete), subscriptions (create, get, list, update, delete), routes, jobs,
+  activity ingest, events, and webhook management. Shipper and carrier
+  applications run at app.onwarddelivery.com, and the platform advertises 100+
+  live integrations with final-mile TMS and dispatch partners.
 url: https://raw.githubusercontent.com/api-evangelist/onward-delivery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +21,57 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64402c2c8413960fc3e268ed/64402c2c8413961d0ce26927_Logo-new-green.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Logistics
+- Final Mile
+- Last Mile Delivery
+- Freight
+- Shipping
+- Transportation
+- Supply Chain
+- Carriers
+apis:
+- name: Onward Delivery API
+  description: >-
+    Versioned (v1) REST API for Onward Delivery's final-mile logistics platform,
+    documented on Theneo. Covers orders, draft manifests, partners,
+    subscriptions, routes, jobs, activity ingest, events, and webhook management
+    across demand, supply, and WMS surfaces.
+  humanURL: https://docs.onwarddelivery.com/
+  baseURL: https://api.onwarddelivery.com
+  tags:
+  - Logistics
+  - Final Mile
+  - Orders
+  - Manifests
+  - Webhooks
+  properties:
+  - type: Documentation
+    url: https://docs.onwarddelivery.com/
+  - type: APIReference
+    url: https://docs.onwarddelivery.com/
+  - type: Authentication
+    url: https://docs.onwarddelivery.com/
+  - type: ChangeLog
+    url: https://docs.onwarddelivery.com/changelog/onward-delivery/new-api-test
+  - type: Webhooks
+    url: https://docs.onwarddelivery.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +80,38 @@ maintainers:
 common:
 - type: Website
   url: https://onwarddelivery.com/
+- type: DeveloperPortal
+  url: https://docs.onwarddelivery.com/
+- type: Documentation
+  url: https://docs.onwarddelivery.com/
+- type: APIReference
+  url: https://docs.onwarddelivery.com/
+- type: Authentication
+  url: https://docs.onwarddelivery.com/
+- type: ChangeLog
+  url: https://docs.onwarddelivery.com/changelog/onward-delivery/new-api-test
+- type: Webhooks
+  url: https://docs.onwarddelivery.com/
+- type: Blog
+  url: https://www.onwarddelivery.com/blog
+- type: Pricing
+  url: https://www.onwarddelivery.com/pricing
+- type: SignUp
+  url: https://www.onwarddelivery.com/im-a-broker
+- type: Login
+  url: https://app.onwarddelivery.com/shipper/signin
+- type: TermsOfService
+  url: https://www.onwarddelivery.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.onwarddelivery.com/shipper-privacy-notice
+- type: Support
+  url: mailto:customerservice@onwarddelivery.com
+- type: LLMsTxt
+  url: llms/onward-delivery-llms.txt
+- type: DomainSecurity
+  url: security/onward-delivery-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
