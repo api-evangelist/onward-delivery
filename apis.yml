@@ -58,6 +58,12 @@ apis:
   tags:
   - Logistics
   - Final Mile
+  - Order
+  - Manifests
+  - Webhook
+  tags_raw:
+  - Logistics
+  - Final Mile
   - Orders
   - Manifests
   - Webhooks
