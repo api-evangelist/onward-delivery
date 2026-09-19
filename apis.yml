@@ -56,6 +56,16 @@ tags:
 - Shipping
 - Transportation
 - Supply Chain
+- Carrier
+tags_raw:
+- Company
+- Logistics
+- Final Mile
+- Last Mile Delivery
+- Freight
+- Shipping
+- Transportation
+- Supply Chain
 - Carriers
 apis:
 - name: Onward Delivery API
